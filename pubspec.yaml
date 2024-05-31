@@ -1,0 +1,73 @@
+name: google_ml_kit_example
+description: Demonstrates how to use the google_ml_kit plugin.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.2 <4.0.0"
+
+dependencies:
+  blurrycontainer: ^2.1.0
+  camera: ^0.10.5+9
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  flutter_launcher_icons: ^0.13.1
+  flutter_pdfview: ^1.3.2
+  flutter_qiblah: ^3.0.3
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.10+1
+  flutter_tts: ^4.0.2
+  geocoding: ^3.0.0
+  geolocator: ^11.1.0
+  google_maps_flutter: 2.2.8
+  google_mlkit_object_detection: ^0.13.0
+  http: ^1.2.1
+  image_picker: ^1.1.0
+  location: ^6.0.2
+  path: ^1.9.0
+  path_provider: ^2.1.3
+  permission_handler: ^11.3.1
+  pretty_dio_logger: ^1.3.1
+  shared_preferences: ^2.2.3
+  soundpool: ^2.4.1
+  speech_to_text: 6.6.0
+  translator: ^1.0.0
+dev_dependencies:
+  flutter_lints: ^3.0.2
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/im/Logoo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/ml/
+    - assets/images/
+    - assets/images/
+    - assets/ml/
+    - assets/sound/salyallamohamed.ogg
+    - assets/im/qibla.png
+    - assets/im/color-palette.png
+    - assets/im/face-id.png
+    - assets/im/money detection.png
+    - assets/im/object recognition.png
+    - assets/im/speech to text.png
+    - assets/im/ExtractTxt4mimg.png
+    - assets/im/text-to-speech.png
+    - assets/im/translate.png
+    - assets/im/gps.png
+    - assets/sound/audio.opus
+    - assets/im/Logoo.png
+    - assets/im/upload.png
+    - assets/logoapp.png
